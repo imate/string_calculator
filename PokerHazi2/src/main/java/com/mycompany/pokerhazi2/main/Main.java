@@ -18,6 +18,8 @@ public class Main {
         tests.add("");
         tests.add("1");
         tests.add("2");
+        tests.add("1,4");
+        tests.add("1,4,10,22,30");
 
         for (String test : tests) {
             System.out.println("ˇ\""+test+"\" --> " + StringCalculator.add(test));
