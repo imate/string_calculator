@@ -22,7 +22,9 @@ public class Main {
         tests.add("1,4,10,22,30");
 
         for (String test : tests) {
-            System.out.println("ˇ\""+test+"\" --> " + StringCalculator.add(test));
+            System.out.println("\"" + test + "\" --> " + StringCalculator.add(test));
         }
+
+        System.out.println("\"1:2:3:4\" --> " + StringCalculator.add("1:2:3:4", ":"));
     }
 }
