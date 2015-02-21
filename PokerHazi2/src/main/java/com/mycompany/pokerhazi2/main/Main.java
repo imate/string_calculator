@@ -19,6 +19,7 @@ public class Main {
         tests.add("1");
         tests.add("2");
         tests.add("1,4");
+        tests.add("3,-1,2,-7,5");
         tests.add("1,4,10,22,30");
 
         for (String test : tests) {
